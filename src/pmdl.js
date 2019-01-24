@@ -43,7 +43,7 @@ PMDL = function() {
     return template
       .replace(/{{ID}}/, storyId(story))
       .replace(/{{URL}}/, storyUrl(story))
-      .replace(/{{NAME}}/, storyName(story).replace(/'/, "’"));
+      .replace(/{{NAME}}/, storyName(story).replace(/'/g, "’"));
   }
 
   function createMDButton(baseButton) {

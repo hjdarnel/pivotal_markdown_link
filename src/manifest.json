@@ -1,7 +1,7 @@
 {
   "name": "Pivotal Markdown Link",
   "description": "Adds a button to pivotal story card to copy some markdown about the story.",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "hjdarnel",
   "manifest_version": 2,
   "content_scripts": [
