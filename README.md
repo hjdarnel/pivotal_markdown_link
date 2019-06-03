@@ -3,7 +3,7 @@ Pivotal Markdown Link (PMDL)
 
 ### 📖 WHAT IS IT
 
-PMDL is a Chrome [Content Script Extension](https://developer.chrome.com/extensions/content_scripts) that places an extra button into [Pivotal Tracker](pivotaltracker.com) story card.
+PMDL is a Browser [Content Script Extension](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts) that places a few extra buttons into a [Pivotal Tracker](pivotaltracker.com) story card.
 
 ### 🚀 GET IT
 

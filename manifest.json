@@ -1,15 +1,15 @@
 {
   "name": "Pivotal Markdown Link",
   "description": "Adds a button to pivotal story card to copy some markdown about the story.",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "author": "hjdarnel",
   "manifest_version": 2,
   "content_scripts": [
     {
       "matches": ["*://www.pivotaltracker.com/n/projects/*", "*://pivotaltracker.com/n/projects/*"],
-      "css": ["pmdl.css"],
-      "js": ["jquery.js", "pmdl.js", "jquery.waituntilexists.js"]
+      "css": ["src/pmdl.css"],
+      "js": ["util/jquery.js", "util/jquery.waituntilexists.js", "src/pmdl.js"]
     }
   ],
-  "icons": {"128": "icon128.png"}
+  "icons": {"128": "assets/icon128.png"}
 }
